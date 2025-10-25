@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+img {
+        height: 400px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      span{
+        position:absolute;
+        z-index: 999;
+        color: white;
+      }
+      .scnd-div{
+        display: flex;
+        flex-direction: column;
+      }
+      .container:first-child {
+        height: 400px;
+        width: auto;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+      .container div {
+        margin-right: 1rem;
+      }
